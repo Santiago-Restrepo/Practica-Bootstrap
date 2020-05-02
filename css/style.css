@@ -86,6 +86,11 @@ header img{
 .laura{
       display: grid;
       grid-template-columns: 66% 33%;
+      border-top: 2px solid var(--gris-laura);
+      border-bottom: 2px solid var(--gris-laura);
+      margin: 0 50px 50px;
+      border-radius: 10px;
+      box-shadow: 0 5px rgba(0, 0, 0, .4);
 }
 
 .main{
