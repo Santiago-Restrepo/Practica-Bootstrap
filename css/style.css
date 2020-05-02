@@ -1,0 +1,284 @@
+
+@import url('https://fonts.googleapis.com/css?family=Convergence&display=swap');
+
+
+:root{
+
+--morado:#2c003e;
+--morado-claro: #512b58;
+--gris-laura: #705c7c;
+
+
+
+}
+
+
+h3,h4{
+    font-family: Convergence;
+    color: #705c7c;
+}
+
+
+
+body{
+    margin: 0;
+    padding-left: 0 100px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: var(--morado-claro);
+    color: white;
+}
+
+header h3{
+    color: white;
+}
+
+.informacion{
+    display: flex;
+    align-items: center;
+    width: 700px;
+}
+
+header img{
+    width: 100px;
+    height: 99px;
+}
+
+
+
+.input-group{
+    width: 350px;
+    height: 50px;
+    
+}
+
+.form-control{
+    height: 50px;
+    outline: none;
+}
+
+.form-control::placeholder{
+    padding-left: 20px;
+}
+
+.collapse{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar{
+    margin-bottom: 50px;
+}
+
+/* -----m-----a-----i-----n----- */
+
+
+.laura{
+      display: grid;
+      grid-template-columns: 66% 33%;
+}
+
+.main{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    margin: auto 0;
+    align-content: space-around;
+}
+
+.quepasa{
+    /* margin: 0; */
+    align-self: center;
+    text-align: center;
+    width: 50%;
+    border-top: 5px solid var(--gris-laura);
+    border-bottom: 5px solid var(--gris-laura);
+    
+    
+
+}
+
+
+.carousel{
+
+    margin-top: 50px;
+    align-self: center;
+    border: 5px solid var(--gris-laura);
+    width: 100%;
+    height: 250px;
+}
+
+.carousel-item img{
+    height: 240px;
+}
+
+.vinculosInteres{
+    display: grid;
+    grid-template-rows:  100px repeat(4, 150px) ;
+    grid-template-columns: 400px;
+    justify-items: center;
+
+    margin-top: 200px;
+    
+}
+
+.vinculo{
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    justify-items: center;
+    
+}
+
+.vinculo h4{
+    height: fit-content;
+    border-bottom: 3px solid #705c7c;
+}
+
+.vinculo a{ 
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    justify-content: center;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+
+.link1{
+    background-image: url("../images/ter.jpg");
+}
+.link2{
+    background-image: url(https://yt3.ggpht.com/a/AATXAJzFVl0MuovFzHl2ukIDlNm6cae7EO6W0QnXdA=s176-c-k-c0x00ffffff-no-rj-mo);
+}
+.link3{
+    background-image: url(https://yt3.ggpht.com/a/AATXAJzT4iqr2kH1JmfUHjGTxmSoK5yO6c6yM9skuA=s176-c-k-c0x00ffffff-no-rj-mo);
+}
+.link4{
+    background-image: url(https://yt3.ggpht.com/a/AATXAJwhy1ey3aAIAHBkkIEWOPTYcURxutMcvPc-ag=s176-c-k-c0x00ffffff-no-rj-mo );
+}
+
+
+
+/* ----p---e----r----f----i----l---- */
+
+.info{
+    display: grid;
+    grid-template-rows: auto;
+    margin-top: 100px;
+
+}
+
+.perfil{
+    display: grid;
+    grid-template-rows:50px repeat(3,150px);
+    width: 100%;
+    align-self: center;
+}
+
+.title{
+    text-align: center;
+    width: 70%;
+    border-top: 5px solid var(--gris-laura);
+    border-bottom: 5px solid var(--gris-laura);
+    justify-self: center;
+    height: 100%;
+}
+
+
+.rasgo{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.rasgo p{
+    width: 70%;
+}
+
+.badge{
+    width: 10%;
+    margin-right: 50px;
+}
+.badge img{
+    width: 100%;
+    
+}
+
+.mis_ultimos_conocimientos{
+
+    display: grid;
+    grid-template-rows: 80px repeat(3,300px);
+    justify-content: center;
+    align-content: center;
+    column-gap: 50px;
+}
+
+.conocimiento{
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 70%;
+    align-self: center;
+    justify-self: center;
+}
+
+.conocimiento img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 4px 4px rgba(0, 0, 0, .4);
+
+
+}
+
+.descripcion{
+    display: none;
+    position: absolute;
+    color: white;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, .4);
+}
+.conocimiento:hover .descripcion{
+    display: block;
+    align-content: center;
+}
+
+.text_description{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+/* -----f-----o----o---t----e-----r */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--morado-claro);
+    color: white;
+}
+
+.redesSociales{
+    display: flex;
+    align-items: center;
+}
+
+.logos{
+    width: 35px;
+    margin: 0 5px;
+}

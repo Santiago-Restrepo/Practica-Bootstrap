@@ -1,0 +1,33 @@
+.estudios{
+    
+    display: grid;
+    grid-template-rows: repeat(4, 380px);
+    row-gap: 50px;
+    padding: 20px; 
+
+
+}
+
+.estudio{
+    display: flex;
+ 
+}
+.imagenReferencia{
+    height: 130px;
+}
+
+.img1{
+    background-image: url('../images/salacho.jfif');
+}
+.img2{
+    background-image: url('../images/poli.jfif');
+}
+.img3{
+    background-image: url(https://miro.medium.com/max/3840/1*rrRcaZKZsjerUveQqTSx7A.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.img4{
+    background-image: url(https://www.musicnexo.com/blog/wp-content/uploads/2016/02/Guitarra-acustica-MusicNexo-2.jpg);
+    background-size: 100%;
+}
