@@ -13,9 +13,14 @@
 }
 
 
-h3,h4{
+h3,h4,h5{
     font-family: Convergence;
     color: #705c7c;
+}
+
+p{
+    font-family: Convergence;
+    
 }
 
 
